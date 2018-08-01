@@ -25,6 +25,7 @@ h2 {
   display: inline-block;
   text-transform: uppercase;
   font-size: 18px;
+  color: #090909;
 }
 
 /****************
@@ -112,7 +113,7 @@ h2 {
 
 .flecha {
   display: inline-block;
-  padding-right: 0.56cm;
+  padding-right: 16px;
 }
 
 hr {
@@ -128,14 +129,37 @@ p{
   color: #717171;
 }
 
+.read{
+  color: #fe9b00;
+  text-transform: uppercase;
+  size: 12px;
+}
+
+#interlineado{
+  line-height: 20px;
+}
+
+.pflecha {
+  padding-right: 14px;
+  padding-bottom: 2px;
+}
+
+.link{
+  color: #090909;
+  size: 12px;
+}
+
 /****************
-      Portfolio
+    Portfolio
 *****************/
 
 /****************
       Info
 *****************/
 
+h3{
+  size: 12px;
+}
 /****************
       Footer
 *****************/
